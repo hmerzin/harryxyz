@@ -1,0 +1,41 @@
+body {
+  background-color: #4da6ff;
+  height: 10000px;
+  overflow: scroll;
+}
+h1 {
+  color: white;
+  font-weight: lighter;
+  font-family: sans-serif;
+  text-align: center;
+}
+/* https://davidwalsh.name/css-fixed-position */
+p {
+    color: #4da6ff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+hr {
+      position: relative;
+      color: white;
+      border-color: white;
+      background-color: white;
+      position: fixed; top:25%; right:0%;
+      border-width: 0;
+      height: 200px;
+      width: 100%;
+      z-index: -1;
+}
+ .my-image{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
